@@ -7,7 +7,7 @@
 
 set -e
 
-COMPOSE_DIR="/home/mahesh/workspace/automation-v2.0.0-r4/multi-container/deploy/"
+COMPOSE_DIR="$1"
 OUTPUT_BASE_DIR="$COMPOSE_DIR/k8s-manifests"
 
 # Find all directories (including COMPOSE_DIR itself) containing a compose.yaml or docker-compose.yaml
